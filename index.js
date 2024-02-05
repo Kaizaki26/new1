@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["👑Primordials PH"];
+const statusMessages = ["👑Primordials PH", "👑Primordials PH", "👑Primordials PH"];
 
 
 let currentIndex = 0;
@@ -98,7 +98,7 @@ client.once('ready', () => {
 
   setInterval(() => {
     updateStatusAndSendMessages();
-  }, 100000);
+  }, 1000);
 });
 
 login();
